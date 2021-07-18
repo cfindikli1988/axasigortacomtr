@@ -1,0 +1,24 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- script: |
+    pip install pytest
+    py.test -W ignore
+  displayName: 'Test with pytest'
+
+schedules:
+- cron: "30 13 * * *"
+  displayName: Run at 13:30 Everyday
+  branches:
+    include:
+    - master
