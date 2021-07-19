@@ -1519,62 +1519,62 @@ def test_checkpoint250():
     assert response.status_code == 200
 
 
-def test_checkpoint110():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-musteri-anketinde-zirvede'
+def test_checkpoint251():
+    url = 'https://www.axasigorta.com.tr/blog/toprak-anaya-saygi-ile-ciftcilere-duyurulur-tarim-sigortasi-yaptirin'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint111():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortanin-iyi-yasam-uygulamasi-axafit-yenilendi'
+def test_checkpoint252():
+    url = 'https://www.axasigorta.com.tr/blog/trafik-kazalari-hakkinda-istatistikler-2018'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint112():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortanin-mukemmel-kaskosuyla-tanisin'
+def test_checkpoint253():
+    url = 'https://www.axasigorta.com.tr/blog/trafik-sigortasindan-kaskoya-7-axa-arac-sigortasi-teklifi'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint113():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortanin-pr-ajansi-sobraz-oldu'
+def test_checkpoint254():
+    url = 'https://www.axasigorta.com.tr/blog/turkiyede-ilk-axa-cep-telefonu-sigortasi'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint114():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortanin-yeni-ceosu-yavuz-olken'
+def test_checkpoint255():
+    url = 'https://www.axasigorta.com.tr/blog/tutumlu-ozel-saglik-sigortasi-neden-onemli'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint115():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortanin-yeni-kampanyasi-sagligim-tamam-yayinda'
+def test_checkpoint256():
+    url = 'https://www.axasigorta.com.tr/blog/uzak-durmaniz-gereken-gida-katkilari'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint116():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-pandemide-de-ek-hizmetlerle-sigortalilarinin-yaninda'
+def test_checkpoint257():
+    url = 'https://www.axasigorta.com.tr/blog/vizesiz-gidilebilecek-ulkeler-2019-ve-buralarda-yapabilecekleriniz'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint117():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-renault-ve-dacia-araclarina-ozel-anlasmali-marka-kasko-sigortasi'
+def test_checkpoint257():
+    url = 'https://www.axasigorta.com.tr/blog/vizesiz-gidilebilecek-ulkeler-2019-ve-buralarda-yapabilecekleriniz'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint118():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-sektorun-ilk-online-acente-toplantisi-ile-kesintisiz-iletisime-devam-ediyor'
+def test_checkpoint258():
+    url = 'https://www.axasigorta.com.tr/blog/yemek-tutkunlarina-alabileceginiz-hediyeler'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint119():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-sel-ve-dolu-magdurlarinin-yaninda'
+def test_checkpoint259():
+    url = 'https://www.axasigorta.com.tr/blog/yeni-bir-is-yeri-kurarken-dikkat-edilmesi-gerekenler'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
@@ -1585,140 +1585,140 @@ def test_checkpoint120():
     assert response.status_code == 200
 
 
-def test_checkpoint121():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-tum-yollar-iklim-krizine-cikiyor'
+def test_checkpoint260():
+    url = 'https://www.axasigorta.com.tr/blog/yeni-nesil-hard-diskler-helyum-ile-calisiyor'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint122():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-ve-gurgen-oz-dert-varsa-derman-axada-bulustu'
+def test_checkpoint261():
+    url = 'https://www.axasigorta.com.tr/blog/yurt-disi-seyahat-saglik-sigortasi-ile-evden-uzakta-guvence'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint123():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-ve-nissan-dan-niskasko-ile-araciniza-orijinal-koruma'
+def test_checkpoint262():
+    url = 'https://www.axasigorta.com.tr/blog/zorunlu-bes-hakkinda-yanlis-bilinenler'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint124():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortaya-5-odul-daha'
+def test_checkpoint263():
+    url = 'https://www.axasigorta.com.tr/blog/zorunlu-trafik-sigortasi-ne-zaman-yapilmali'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint125():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-yarinin-musterisine-hazir'
+def test_checkpoint264():
+    url = 'https://www.axasigorta.com.tr/blog/zorunlu-trafik-sigortasi-ve-kasko-farklar-neler'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint126():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortaya-sagligim-tamam-sigortasi-ile-effie-odulu'
+def test_checkpoint265():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=1'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint127():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortaya-stevie-awardsdan-tam-yedi-odul'
+def test_checkpoint266():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=2'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint128():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-yerinde-cam-degisimi-ve-ucretsiz-vale-cekici-hizmeti'
+def test_checkpoint267():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=3'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint129():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigortayla-sagliginizi-sansa-birakmayin'
+def test_checkpoint268():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=4'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint130():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-stratejik-yolculugunun-yeni-asamasini-uygulamak-uzere-yaptigi-ust-duzey-liderlik-degisikliklerini-duyurdu'
+def test_checkpoint269():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=5'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint131():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-tamamlayici-saglik-sigortasinda-liderligini-surduruyor'
+def test_checkpoint270():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=6'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint132():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-telefon-kazasina-son-dedi'
+def test_checkpoint271():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=7'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint133():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-ve-unicef-suriyeli-cocuklar-icin-elele'
+def test_checkpoint272():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=8'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint134():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axaya-yedinci-kez-insana-saygi-odulu'
+def test_checkpoint273():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=9'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint135():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-xl-group-satin-aldi'
+def test_checkpoint274():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=10'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint136():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-yine-turkiyenin-en-iyi-isvereni'
+def test_checkpoint275():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=11'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint137():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/doktorlara-soru-sormanin-en-kolay-yolu-axafit-te'
+def test_checkpoint276():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=12'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint138():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/en-yenilikci-ve-en-cok-tercih-edilen-sigorta-markasi-axa'
+def test_checkpoint277():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=13'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint139():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/finansal-sonuclar'
+def test_checkpoint278():
+    url = 'https://www.axasigorta.com.tr/blog?sayfa=14'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint140():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/gurgen-oz-ve-axa-sigortadan--mini-komedi-tadinda-filmler-gurgen-oz-yine-kahkahaya-bogacak'
+def test_checkpoint279():
+    url = 'https://www.axasigorta.com.tr/CepOnline/'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint141():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/iklim-degisikligine-karsi-ormanlara-destek-axa-dan-tema-vakfina-25-bin-fidan-2'
+def test_checkpoint280():
+    url = 'https://www.axasigorta.com.tr/DegerKaybi/HasarForm.aspx'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint142():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/is-guvenligi-ile-ilgili-onlemler-ekonomik-kosullara-bagli-olmaksizin-alinmali'
+def test_checkpoint281():
+    url = 'https://www.axasigorta.com.tr/degerlerimiz'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
 
-def test_checkpoint143():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/istanbulda-yasanan-afet-sigortali-olmanin-onemini-bir-kez-daha-gosterdi'
+def test_checkpoint282():
+    url = 'https://www.axasigorta.com.tr/diger-urunler'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
