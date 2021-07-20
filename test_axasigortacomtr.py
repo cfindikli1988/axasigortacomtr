@@ -1,6 +1,5 @@
 import requests
 
-
 def test_checkpoint1():
     url = 'https://www.axasigorta.com.tr/'
     response = requests.get(url, verify=False)
