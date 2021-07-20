@@ -8,7 +8,6 @@ def test_checkpoint1():
     assert response.status_code == 200
 
 
-
 def test_checkpoint2():
     url = 'https://www.axasigorta.com.tr/acente-ara'
     response = requests.get(url, verify=False)
@@ -863,7 +862,6 @@ def test_checkpoint143():
     assert response.status_code == 200
 
 
-
 def test_checkpoint144():
     url = 'https://www.axasigorta.com.tr/basin-bultenleri/musteriler-puanliyor-axa-sigorta-yayinliyor'
     response = requests.get(url, verify=False)
@@ -1279,12 +1277,6 @@ def test_checkpoint212():
     assert response.status_code == 200
 
 
-def test_checkpoint70():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-a-milli-erkek-voleybol-takimina-ozel-mars'
-    response = requests.get(url, verify=False)
-    assert response.status_code == 200
-
-
 def test_checkpoint213():
     url = 'https://www.axasigorta.com.tr/blog/evde-spor-ve-egzersiz-yapmak'
     response = requests.get(url, verify=False)
@@ -1353,12 +1345,6 @@ def test_checkpoint223():
 
 def test_checkpoint224():
     url = 'https://www.axasigorta.com.tr/blog/is-yerinize-sigorta-yaptirirken-dikkat-edilmesi-gereken-5-sey'
-    response = requests.get(url, verify=False)
-    assert response.status_code == 200
-
-
-def test_checkpoint83():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-dan-doktor-danisma-hatti-hizmeti'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
@@ -1561,12 +1547,6 @@ def test_checkpoint257():
     assert response.status_code == 200
 
 
-def test_checkpoint257():
-    url = 'https://www.axasigorta.com.tr/blog/vizesiz-gidilebilecek-ulkeler-2019-ve-buralarda-yapabilecekleriniz'
-    response = requests.get(url, verify=False)
-    assert response.status_code == 200
-
-
 def test_checkpoint258():
     url = 'https://www.axasigorta.com.tr/blog/yemek-tutkunlarina-alabileceginiz-hediyeler'
     response = requests.get(url, verify=False)
@@ -1575,12 +1555,6 @@ def test_checkpoint258():
 
 def test_checkpoint259():
     url = 'https://www.axasigorta.com.tr/blog/yeni-bir-is-yeri-kurarken-dikkat-edilmesi-gerekenler'
-    response = requests.get(url, verify=False)
-    assert response.status_code == 200
-
-
-def test_checkpoint120():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-tum-salgin-hastaliklari-teminat-altina-aldi'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
@@ -1722,3 +1696,566 @@ def test_checkpoint282():
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
+
+def test_checkpoint283():
+    url = 'https://www.axasigorta.com.tr/diger-urunler/cep-telefonu-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint284():
+    url = 'https://www.axasigorta.com.tr/diger-urunler/yatim-paket-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint285():
+    url = 'https://www.axasigorta.com.tr/dunya-icin-hareket-et-manifestosu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint286():
+    url = 'https://www.axasigorta.com.tr/emeklilik-hayat'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint287():
+    url = 'https://www.axasigorta.com.tr/en'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint288():
+    url = 'https://www.axasigorta.com.tr/en/annual-reports'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint289():
+    url = 'https://www.axasigorta.com.tr/en/auto'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint290():
+    url = 'https://www.axasigorta.com.tr/en/auto/buyuk-hasar-kasko'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint291():
+    url = 'https://www.axasigorta.com.tr/en/auto/complementary-health-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint292():
+    url = 'https://www.axasigorta.com.tr/en/auto/compulsory-earthquake-insurance-dask'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint293():
+    url = 'https://www.axasigorta.com.tr/en/auto/health-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint294():
+    url = 'https://www.axasigorta.com.tr/en/auto/maksimum-kasko-sigortas%C4%B1'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint295():
+    url = 'https://www.axasigorta.com.tr/en/auto/motor-third-party-liability-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint296():
+    url = 'https://www.axasigorta.com.tr/en/auto/private-health-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint297():
+    url = 'https://www.axasigorta.com.tr/en/auto/travel-health-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint298():
+    url = 'https://www.axasigorta.com.tr/en/auto/tutumlu-kasko-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint299():
+    url = 'https://www.axasigorta.com.tr/en/auto/workplace-package-insurance'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint300():
+    url = 'https://www.axasigorta.com.tr/en/contact-us'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint301():
+    url = 'https://www.axasigorta.com.tr/en/health'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint302():
+    url = 'https://www.axasigorta.com.tr/en/other'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint303():
+    url = 'https://www.axasigorta.com.tr/en/who-we-are'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint304():
+    url = 'https://www.axasigorta.com.tr/etiket/araba'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint305():
+    url = 'https://www.axasigorta.com.tr/etiket/dask'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint306():
+    url = 'https://www.axasigorta.com.tr/etiket/deprem'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint307():
+    url = 'https://www.axasigorta.com.tr/etiket/saglik'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint308():
+    url = 'https://www.axasigorta.com.tr/etiket/sigorta'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint309():
+    url = 'https://www.axasigorta.com.tr/evdeki-bakicim'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint310():
+    url = 'https://www.axasigorta.com.tr/gelecek-icin-haziriz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint311():
+    url = 'https://www.axasigorta.com.tr/hakkimizda'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint312():
+    url = 'https://www.axasigorta.com.tr/iletisim'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint313():
+    url = 'https://www.axasigorta.com.tr/iletisim-bilgileri'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint314():
+    url = 'https://www.axasigorta.com.tr/iletisim-kampanyalarimiz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint315():
+    url = 'https://www.axasigorta.com.tr/insan-kaynaklari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint316():
+    url = 'https://www.axasigorta.com.tr/kampanyalar'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint317():
+    url = 'https://www.axasigorta.com.tr/kampanyalar/axaclub-avantajlar-dunyasi-axafit'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint318():
+    url = 'https://www.axasigorta.com.tr/kampanyalar/cep-telefonu-sigortasinda-yuzde-5-paracik'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint319():
+    url = 'https://www.axasigorta.com.tr/kampanyalar/hopiden-seyahat-saglikta-yuzde-5-paracik-kazanin'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint320():
+    url = 'https://www.axasigorta.com.tr/kampanyalar/kasko-hopi-kampanya-kosullari'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint321():
+    url = 'https://www.axasigorta.com.tr/KaskoOnline/Kasko/genel_bilgiler.aspx'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint322():
+    url = 'https://www.axasigorta.com.tr/kaza-aninda'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint323():
+    url = 'https://www.axasigorta.com.tr/kisisel-verilerin-korunmasina-iliskin-aydinlatma-bildirimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint324():
+    url = 'https://www.axasigorta.com.tr/kisisel-veri-sahibinin-haklarini-kullanmasi-icin-basvuru'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint325():
+    url = 'https://www.axasigorta.com.tr/Konut/DaskSigortasi/Teklif/KisiselBilgiler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint326():
+    url = 'https://www.axasigorta.com.tr/KonutOnline/KonutSigortasi/Teklif'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint327():
+    url = 'https://www.axasigorta.com.tr/konut-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint328():
+    url = 'https://www.axasigorta.com.tr/konut-sigortasi/evim-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint329():
+    url = 'https://www.axasigorta.com.tr/konut-sigortasi/site-paket-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint330():
+    url = 'https://www.axasigorta.com.tr/konut-sigortasi/zorunlu-deprem-sigortasi-dask'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint331():
+    url = 'https://www.axasigorta.com.tr/kurumsal-islemler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint332():
+    url = 'https://www.axasigorta.com.tr/merkez-ofislerimiz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint333():
+    url = 'https://www.axasigorta.com.tr/mobil-uygulamalar'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint334():
+    url = 'https://www.axasigorta.com.tr/musteri-degerlendirmeleri'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint335():
+    url = 'https://www.axasigorta.com.tr/Saglik/KobiSagligimTamam/Genel_Bilgiler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint336():
+    url = 'https://www.axasigorta.com.tr/Saglik/SagligimTamam/Genel_Bilgiler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint337():
+    url = 'https://www.axasigorta.com.tr/Saglik/SulaleIndirimliSagligimTamam/Genel_Bilgiler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint338():
+    url = 'https://www.axasigorta.com.tr/saglikli-yasam-indirimi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint339():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint340():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/kobilere-ozel-sagligim-tamam-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint341():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/ozel-saglik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint342():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/sagligim-misafir-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint343():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/sagligim-tamam-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint344():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/tutumlu-ozel-saglik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint345():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/yurt-disi-seyahat-saglik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint346():
+    url = 'https://www.axasigorta.com.tr/SAPV2/Account/ActiveBiddingList'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint347():
+    url = 'https://www.axasigorta.com.tr/SAPV2/Account/ForgotPassword'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint348():
+    url = 'https://www.axasigorta.com.tr/SAPV2/Account/Login'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint349():
+    url = 'https://www.axasigorta.com.tr/SAPV2/Account/SupplierContract'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint350():
+    url = 'https://www.axasigorta.com.tr/Seyahat/SeyahatSaglikSigortasi/Teklif'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint351():
+    url = 'https://www.axasigorta.com.tr/sikca-sorulan-sorular'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint352():
+    url = 'https://www.axasigorta.com.tr/sulale-boyu-tamamlayici-saglik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint353():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/altinordu-futbol-kulubu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint354():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/axa-tum-kalplerde'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint355():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/dunya-dostu-acente'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint356():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/dunya-dostu-sigortacilik-anlayisi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint357():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/dunya-icin-hareket-et'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint358():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/iklim-degisikligi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint359():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/surdurulebilirlik-vizyonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint360():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/telefon-kazasina-son'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint361():
+    url = 'https://www.axasigorta.com.tr/surdurulebilirlik/turkiye-voleybol-federasyonu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint362():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint363():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/akaryakit-istasyonu-paket-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint364():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/devlet-destekli-alacak-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint365():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/eczanem-paket-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint366():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/isyerim-paket-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint367():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/kadin-girisimci-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint368():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/muhendislik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint369():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/nakliyat-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint370():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/otel-ve-tatil-koyu-paket-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint371():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/sorumluluk-ve-ferdi-kaza-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint372():
+    url = 'https://www.axasigorta.com.tr/ticari-kurumsal/tarim-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint373():
+    url = 'https://www.axasigorta.com.tr/trafik-kazasi-kusur-oranina-itiraz'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint374():
+    url = 'https://www.axasigorta.com.tr/TrafikOnline/Trafik/genel_bilgiler.aspx'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint375():
+    url = 'https://www.axasigorta.com.tr/yasal-bilgilendirmeler'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
+
+
+def test_checkpoint376():
+    url = 'https://www.axasigorta.com.tr/yonetim-kurulu'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
