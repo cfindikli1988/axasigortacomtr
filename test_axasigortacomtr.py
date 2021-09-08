@@ -1764,7 +1764,7 @@ def test_checkpoint293():
 
 
 def test_checkpoint294():
-    url = 'https://www.axasigorta.com.tr/en/auto/maksimum-kasko-sigortas%C4%B1'
+    url = 'https://www.axasigorta.com.tr/en/auto/maksimum-kasko-sigortasi'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
