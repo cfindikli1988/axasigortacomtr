@@ -443,7 +443,7 @@ def test_checkpoint73():
 
 
 def test_checkpoint74():
-    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-calisanlar%C4%B1-icin-guvenle-calisabilecekleri-bir-ofis-ortami-hazirlaniyor'
+    url = 'https://www.axasigorta.com.tr/basin-bultenleri/axa-sigorta-calisanlari-icin-guvenle-calisabilecekleri-bir-ofis-ortami-hazirlaniyor'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
 
