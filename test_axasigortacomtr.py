@@ -2264,4 +2264,8 @@ def test_checkpoint377():
     url = 'https://www.axasigorta.com.tr/diger-urunler/bisikletci-dostu-sigorta'
     response = requests.get(url, verify=False)
     assert response.status_code == 200
-    
+
+def test_checkpoint378():
+    url = 'https://www.axasigorta.com.tr/saglik-sigortasi/axa-genc-tamamlayici-saglik-sigortasi'
+    response = requests.get(url, verify=False)
+    assert response.status_code == 200
