@@ -59,7 +59,7 @@ def test_checkpoint9():
 def test_checkpoint10():
     url = 'https://www.axasigorta.com.tr/arac-sigortasi/lacivert-kasko-sigortasi'
     response = requests.get(url, verify=False)
-    assert response.status_code == 404
+    assert response.status_code == 200
 
 
 def test_checkpoint11():
