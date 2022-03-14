@@ -1916,7 +1916,7 @@ def test_checkpoint318():
 def test_checkpoint319():
     url = 'https://www.axasigorta.com.tr/kampanyalar/hopiden-seyahat-saglikta-yuzde-5-paracik-kazanin'
     response = requests.get(url, verify=False)
-    assert response.status_code == 404
+    assert response.status_code == 200
 
 
 def test_checkpoint320():
